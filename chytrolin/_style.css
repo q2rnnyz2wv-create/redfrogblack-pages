@@ -1,0 +1,16 @@
+:root{--night:#17122e;--night2:#221a44;--line:#463b80;--sun:#ffd25a;--mint:#6fe0b0;--text:#f6f1ff;--muted:#b0a7dc;--ink:#0d0a1f}
+*{box-sizing:border-box}html,body{background:var(--night);color:var(--text)}
+body{margin:0;font:16px/1.6 "Figtree",system-ui,sans-serif}
+.w{max-width:760px;margin:0 auto;padding:28px max(18px,env(safe-area-inset-left)) 64px}
+header{display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between;align-items:center;border-bottom:2px solid var(--line);padding-bottom:14px;margin-bottom:22px}
+.logo{font-family:"Lilita One",system-ui,sans-serif;font-size:28px;color:var(--text);text-decoration:none}.logo em{font-style:normal;color:var(--sun)}
+nav{display:flex;gap:14px;flex-wrap:wrap}nav a{color:var(--muted);text-decoration:none;font-weight:600}nav a:hover,nav a[aria-current]{color:var(--sun)}
+.lang{display:flex;gap:10px;margin:0 0 10px}.lang a{color:var(--muted);font-weight:700;text-decoration:none;border:2px solid var(--line);border-radius:99px;padding:2px 12px}.lang a:hover{color:var(--sun)}
+h1{font-family:"Lilita One",system-ui,sans-serif;font-weight:400;font-size:36px;line-height:1.1;margin:8px 0 6px}
+h2{font-size:20px;margin:28px 0 6px;color:var(--sun)}
+section+section{margin-top:48px;border-top:2px solid var(--line);padding-top:22px}
+p,li{color:#e6e0fa}a{color:var(--sun)}.muted{color:var(--muted);font-size:14px}
+.card{background:var(--night2);border:2px solid var(--line);border-radius:16px;padding:16px 18px;margin:16px 0}
+table{border-collapse:collapse;width:100%;font-size:14px}td,th{border-bottom:1px solid var(--line);padding:8px 6px;text-align:left;vertical-align:top}
+.wrapt{overflow-x:auto}
+footer{margin-top:40px;border-top:2px solid var(--line);padding-top:14px}

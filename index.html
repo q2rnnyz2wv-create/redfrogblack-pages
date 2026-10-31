@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>RedFrogBlack, an independent studio for art, learning and play</title>
+    <meta name="description" content="RedFrogBlack Limited is an independent London studio building a small family of colourful, considered brands across art, learning and play." />
+    <meta name="theme-color" content="#182b49" />
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+
+    <!-- Fonts: Manrope only, matching the OmniModi family style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="assets/style.css" />
+
+    <!-- Prevent flash: apply saved theme before paint -->
+    <script>
+      (function() {
+        try {
+          var saved = localStorage.getItem('rfb-theme');
+          if (saved === 'light' || saved === 'dark') {
+            document.documentElement.setAttribute('data-theme', saved);
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <a href="#main" class="visually-hidden">Skip to content</a>
+
+    <!-- HEADER -->
+    <header class="site-header" role="banner">
+      <div class="container header-inner">
+        <a href="#top" class="brand" aria-label="RedFrogBlack home">
+          <img class="brand-logo brand-logo-dark" src="images/rfba-logo-dark.png" alt="RedFrogBlack" />
+          <img class="brand-logo brand-logo-light" src="images/rfba-logo.png" alt="RedFrogBlack" />
+        </a>
+        <nav class="site-nav" aria-label="Primary">
+          <a href="#studio">Studio</a>
+          <a href="#brands">Brands</a>
+          <a href="#roadmap">Roadmap</a>
+          <a href="#contact">Contact</a>
+          <button class="theme-toggle" type="button" data-theme-toggle aria-label="Toggle light and dark theme">
+            <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+            <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+            <span>Theme</span>
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- HERO -->
+      <section id="top" class="hero">
+        <div class="container">
+          <span class="hero-eyebrow">RedFrogBlack Limited, London</span>
+          <h1 class="hero-title">
+            A studio for <span class="accent">art, learning and play.</span>
+          </h1>
+          <p class="hero-lede">
+            An independent London studio building a small family of colourful, considered brands.
+            Every project is made with the same intent: refined, original, built to last.
+          </p>
+          <div class="hero-cta">
+            <a class="btn btn-primary btn-arrow" href="#brands">See the brands</a>
+            <a class="btn btn-ghost" href="#contact">Say hello</a>
+          </div>
+          <dl class="hero-stats">
+            <div class="hero-stat">
+              <dt class="hero-stat-label">Brands</dt>
+              <dd class="hero-stat-value">3</dd>
+            </div>
+            <div class="hero-stat">
+              <dt class="hero-stat-label">Studio</dt>
+              <dd class="hero-stat-value">London</dd>
+            </div>
+            <div class="hero-stat">
+              <dt class="hero-stat-label">Since</dt>
+              <dd class="hero-stat-value">2024</dd>
+            </div>
+            <div class="hero-stat">
+              <dt class="hero-stat-label">Focus</dt>
+              <dd class="hero-stat-value">Original</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+
+      <!-- STUDIO -->
+      <section id="studio" class="section">
+        <div class="container">
+          <span class="section-eyebrow">01, The studio</span>
+          <h2 class="section-title">A small studio, three growing brands.</h2>
+          <p class="section-lede">
+            RedFrogBlack Limited is an independent London company. We make original paintings,
+            cognitive-science learning tools, and family-friendly games. Each brand stands on its
+            own, and shares a house style: colourful, precise, quiet in the details.
+          </p>
+          <div class="studio-grid">
+            <article class="card">
+              <span class="chip chip-pink">01</span>
+              <h3>Original, not derivative</h3>
+              <p>Every piece, painting, question, world and puzzle is made from scratch. No stock, no shortcuts.</p>
+            </article>
+            <article class="card">
+              <span class="chip chip-blue">02</span>
+              <h3>Considered, not rushed</h3>
+              <p>New work ships when it is ready. If a thing is worth making, it is worth making properly.</p>
+            </article>
+            <article class="card">
+              <span class="chip chip-mustard">03</span>
+              <h3>Colourful, not shouty</h3>
+              <p>We love colour. We use it deliberately, never for the sake of noise.</p>
+            </article>
+            <article class="card">
+              <span class="chip chip-lavender">04</span>
+              <h3>Kind, by default</h3>
+              <p>No dark patterns. No forced ads. No pay-to-win. Products we would want our own family to use.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- BRANDS INTRO -->
+      <section id="brands" style="padding-block: var(--space-12) var(--space-6);">
+        <div class="container">
+          <span class="section-eyebrow">02, Brands under RedFrogBlack</span>
+          <h2 class="section-title">Three brands, one studio.</h2>
+          <p class="section-lede">
+            Each brand has its own home, its own voice, and its own audience. Click any brand's
+            screenshot to visit the live site.
+          </p>
+        </div>
+      </section>
+
+      <!-- BRAND 1: ART -->
+      <section class="brand-block brand-art">
+        <div class="container brand-inner">
+          <div>
+            <span class="brand-kicker">Art</span>
+            <h3 class="brand-name">RedFrogBlackArt</h3>
+            <p class="brand-tag">Original paintings, bespoke commissions.</p>
+            <p class="brand-desc">
+              Original works in professional-grade acrylic on high-quality stretched canvas. Each
+              piece explores contrast, movement and emotion. Considered composition, confident
+              execution. Available for collectors, interiors, custom commissions and tailored
+              print applications.
+            </p>
+            <a class="brand-link" href="https://redfrogblackart.com" target="_blank" rel="noopener">
+              Visit redfrogblackart.com →
+            </a>
+          </div>
+          <a class="brand-shot" href="https://redfrogblackart.com" target="_blank" rel="noopener" aria-label="Open redfrogblackart.com in a new tab">
+            <img src="images/site-art.png" alt="Screenshot of the RedFrogBlackArt homepage" />
+            <span class="brand-shot-cta">Open redfrogblackart.com ↗</span>
+          </a>
+        </div>
+        <div class="container">
+          <div class="gallery" aria-label="Selected paintings">
+            <figure class="gallery-item"><img src="images/painting-01.jpg" alt="Amsterdam Canal painting" /><figcaption><strong>Amsterdam Canal</strong><span>Colourful gables, quiet water.</span></figcaption></figure>
+            <figure class="gallery-item"><img src="images/painting-02.jpg" alt="Sky Tree mixed media" /><figcaption><strong>Sky Tree</strong><span>Mixed media on canvas.</span></figcaption></figure>
+            <figure class="gallery-item"><img src="images/painting-03.png" alt="Bloom Pond painting" /><figcaption><strong>Bloom Pond</strong><span>Fish, spirals, joy.</span></figcaption></figure>
+            <figure class="gallery-item"><img src="images/painting-05.png" alt="Need You painting" /><figcaption><strong>Need You</strong><span>Hearts, flowers, colour.</span></figcaption></figure>
+            <figure class="gallery-item"><img src="images/painting-melted-sun.jpg" alt="Melted Sun painting" /><figcaption><strong>Melted Sun</strong><span>Warm chaos on canvas.</span></figcaption></figure>
+            <figure class="gallery-item"><img src="images/painting-carnival.jpg" alt="Carnival of Chaos painting" /><figcaption><strong>Carnival of Chaos</strong><span>A riot in acrylic.</span></figcaption></figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- BRAND 2: PLAY -->
+      <section class="brand-block brand-play">
+        <div class="container brand-inner">
+          <div>
+            <span class="brand-kicker">Play</span>
+            <h3 class="brand-name">Croakdown</h3>
+            <p class="brand-tag">A puzzle kingdom in your pocket.</p>
+            <p class="brand-desc">
+              A cozy, jewel-toned puzzle adventure across a storybook frog kingdom. Handcrafted
+              worlds, solo play and real-time Split Pond duels, and a calm, family-friendly design
+              with no forced ads and no pay-to-win. Play free in a modern browser today. iOS and
+              Google Play, coming soon.
+            </p>
+            <a class="brand-link" href="https://croakdown.com" target="_blank" rel="noopener">
+              Visit croakdown.com →
+            </a>
+          </div>
+          <a class="brand-shot" href="https://croakdown.com" target="_blank" rel="noopener" aria-label="Open croakdown.com in a new tab">
+            <img src="images/site-play.png" alt="Screenshot of the Croakdown homepage" />
+            <span class="brand-shot-cta">Open croakdown.com ↗</span>
+          </a>
+        </div>
+        <div class="container">
+          <div class="gallery" aria-label="Croakdown worlds">
+            <figure class="gallery-item"><img src="images/worlds/pond.jpg" alt="Pond world" /><figcaption><strong>Pond</strong><span>Where every journey begins.</span></figcaption></figure>
+            <figure class="gallery-item"><img src="images/worlds/treetops.jpg" alt="Treetops world" /><figcaption><strong>Treetops</strong><span>Climb into the canopy.</span></figcaption></figure>
+            <figure class="gallery-item"><img src="images/worlds/mist.jpg" alt="Mist world" /><figcaption><strong>Mist</strong><span>Puzzles hidden in the fog.</span></figcaption></figure>
+            <figure class="gallery-item"><img src="images/worlds/sunlight.jpg" alt="Sunlight world" /><figcaption><strong>Sunlight</strong><span>Warm colour, bright thinking.</span></figcaption></figure>
+            <figure class="gallery-item"><img src="images/worlds/skylines.jpg" alt="Skylines world" /><figcaption><strong>Skylines</strong><span>Above the pond, above the rules.</span></figcaption></figure>
+            <figure class="gallery-item"><img src="images/worlds/monuments.jpg" alt="Monuments world" /><figcaption><strong>Monuments</strong><span>Ancient wonders, modern moves.</span></figcaption></figure>
+            <figure class="gallery-item"><img src="images/worlds/wonders.jpg" alt="Wonders world" /><figcaption><strong>Wonders</strong><span>Where the kingdom ends.</span></figcaption></figure>
+            <figure class="gallery-item"><img src="images/worlds/splitpond.jpg" alt="Split Pond duel mode" /><figcaption><strong>Split Pond</strong><span>Real-time duels for the crown.</span></figcaption></figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- BRAND 3: LEARNING -->
+      <section class="brand-block brand-learn">
+        <div class="container brand-inner">
+          <div>
+            <span class="brand-kicker">Learning</span>
+            <h3 class="brand-name">OmniModi</h3>
+            <p class="brand-tag">Revision that actually works.</p>
+            <p class="brand-desc">
+              A cognitive-science revision platform for UK GCSE students. Thousands of questions
+              across 13 subjects, Foundation and Higher, aligned to GCSE specifications. Active
+              recall with immediate feedback, XP and streak progression, and PDF progress reports
+              for parents and teachers.
+            </p>
+            <a class="brand-link" href="https://omnimodi.com" target="_blank" rel="noopener">
+              Visit omnimodi.com →
+            </a>
+          </div>
+          <a class="brand-shot" href="https://omnimodi.com" target="_blank" rel="noopener" aria-label="Open omnimodi.com in a new tab">
+            <img src="images/site-learning.png" alt="Screenshot of the OmniModi revision platform" />
+            <span class="brand-shot-cta">Open omnimodi.com ↗</span>
+          </a>
+        </div>
+      </section>
+
+      <!-- ROADMAP -->
+      <section id="roadmap" class="section">
+        <div class="container">
+          <span class="section-eyebrow">03, In development</span>
+          <h2 class="section-title">Building carefully, one brand at a time.</h2>
+          <p class="section-lede">
+            RedFrogBlack is a growing family of brands. New work is developed patiently, never
+            rushed, never released before it is ready. Below is what is currently in progress.
+          </p>
+          <div class="roadmap-grid">
+            <article class="card">
+              <span class="chip chip-blue">01</span>
+              <h3>More games beyond Croakdown</h3>
+              <p>Additional family-friendly puzzle titles in the same world, and future stand-alone games.</p>
+            </article>
+            <article class="card">
+              <span class="chip chip-lavender">02</span>
+              <h3>More educational apps</h3>
+              <p>A-Level content for OmniModi, and additional learning tools that apply cognitive-science research.</p>
+            </article>
+            <article class="card">
+              <span class="chip chip-mustard">03</span>
+              <h3>Productivity apps</h3>
+              <p>Focused, calm tools built on the same principles: refined interface, no dark patterns, respect for the user.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="section" style="background: var(--surface-2); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);">
+        <div class="container">
+          <span class="section-eyebrow">04, Contact</span>
+          <div class="contact-body">
+            <h2 class="section-title" style="margin-bottom: var(--space-4);">Enquiries welcome.</h2>
+            <p>
+              Bespoke commissions, school licence enquiries, press, distribution, partnerships. All
+              correspondence goes to a single address so nothing gets lost.
+            </p>
+            <a class="contact-email" href="mailto:info@redfrogblackart.com">info@redfrogblackart.com →</a>
+            <dl class="contact-meta">
+              <div><dt>Studio</dt><dd>London, United Kingdom</dd></div>
+              <div><dt>Response</dt><dd>Within one business day</dd></div>
+              <div><dt>Company</dt><dd>RedFrogBlack Limited</dd></div>
+            </dl>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-brand">
+          <img class="footer-logo" src="images/rfba-logo-dark.png" alt="RedFrogBlack" />
+          <div>
+            <p class="footer-name">RedFrogBlack Limited</p>
+            <p class="footer-line">A private company registered in the United Kingdom.</p>
+          </div>
+        </div>
+        <nav class="footer-links" aria-label="Footer">
+          <div>
+            <p class="footer-heading">Brands</p>
+            <a href="https://redfrogblackart.com" target="_blank" rel="noopener">RedFrogBlackArt</a>
+            <a href="https://croakdown.com" target="_blank" rel="noopener">Croakdown</a>
+            <a href="https://omnimodi.com" target="_blank" rel="noopener">OmniModi</a>
+          </div>
+          <div>
+            <p class="footer-heading">Studio</p>
+            <a href="#studio">About</a>
+            <a href="#roadmap">Roadmap</a>
+            <a href="#contact">Contact</a>
+          </div>
+          <div>
+            <p class="footer-heading">Get in touch</p>
+            <a href="mailto:info@redfrogblackart.com">info@redfrogblackart.com</a>
+            <span class="footer-muted">London, GB</span>
+          </div>
+        </nav>
+      </div>
+      <div class="container footer-legal">
+        <p>© <span id="year">2026</span> RedFrogBlack Limited. All rights reserved.</p>
+        <p>RedFrogBlack Limited is not VAT registered.</p>
+      </div>
+    </footer>
+
+    <script src="assets/script.js" defer></script>
+  </body>
+</html>
